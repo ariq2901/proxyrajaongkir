@@ -2,7 +2,7 @@
 
 **Requirement**
 
-Pastikan Versi Laravel/Framework atau illuminate/support >=8.29
+Pastikan versi Laravel/Framework atau illuminate/support >=8.29
 
 **Instalasi**
 
