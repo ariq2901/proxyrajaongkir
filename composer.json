@@ -15,7 +15,7 @@
     ],
     "license": "MIT",
     "require": {
-        "illuminate/support": "^8.29"
+        "illuminate/support": "^8"
     },
     "autoload": {
         "psr-4": {
