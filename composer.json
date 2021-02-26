@@ -1,5 +1,5 @@
 {
-    "name": "ariqjusuf/rajaongkirlaravel",
+    "name": "ariqjusuf/proxyrajaongkir",
     "type": "package",
     "description": "Proxy API Raja Ongkir Laravel 8",
     "keywords": [
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ariqjusuf\\rajaongkirlaravel\\": "src/"
+            "ariqjusuf\\proxyrajaongkir\\": "src/"
         }
     }
 }
