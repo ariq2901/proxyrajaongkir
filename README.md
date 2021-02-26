@@ -1,5 +1,9 @@
 # rajaongkir API For Laravel 8
 
+**Requirement**
+
+Pastikan Versi Laravel/Framework atau illuminate/support >=8.29
+
 **Instalasi**
 
 Download package dengan composer
