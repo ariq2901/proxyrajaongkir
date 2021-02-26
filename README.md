@@ -11,8 +11,17 @@ atau
 {
 	"require": {
 		"ariqjusuf/rajaongkirlaravel" : "dev-master"
-	}
+	},
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ariq2901/rajaongkirlaravel"
+        }
+    ],
 }
+
+// setelah di-set di composer.json, run composer update
+composer update
 ```
 
 Tambahkan service provider ke config/app.php
