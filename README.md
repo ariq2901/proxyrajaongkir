@@ -4,23 +4,24 @@
 
 Download package dengan composer
 ```
-composer require ariqjusuf/rajaongkirlaravel
+composer require ariqjusuf/proxyrajaongkir
 ```
 atau
 ```
 {
 	"require": {
-		"ariqjusuf/rajaongkirlaravel" : "dev-master"
+		"ariqjusuf/proxyrajaongkir" : "dev-master"
 	},
 	"repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/ariq2901/rajaongkirlaravel"
+            "url": "https://github.com/ariq2901/proxyrajaongkir"
         }
     ],
 }
 
 // setelah di-set di composer.json, run composer update
+
 composer update
 ```
 
@@ -29,7 +30,7 @@ Tambahkan service provider ke config/app.php
 'providers' => [
 	....
 	
-	ariqjusuf\rajaongkirlaravel\RajaOngkirServiceProvider::class,
+	ariqjusuf\proxyrajaongkir\RajaOngkirServiceProvider::class,
 ]
 ```
 
@@ -38,7 +39,7 @@ Tambahkan juga aliasnya ke config/app.php
 'aliases' => [
 	....
 	
-	'RajaOngkir' => ariqjusuf\rajaongkirlaravel\RajaOngkirFacade::class,
+	'RajaOngkir' => ariqjusuf\proxyrajaongkir\RajaOngkirFacade::class,
 ]
 ```
 
