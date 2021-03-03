@@ -7,15 +7,15 @@ use ariqjusuf\rajaongkirlaravel\app\Kota;
 use ariqjusuf\rajaongkirlaravel\app\Provinsi;
 
 class RajaOngkir {
-	public static function Provinsi(){
+	public function Provinsi(){
 		return new Provinsi;
 	}
 
-	public static function Kota(){
+	public function Kota(){
 		return new Kota;
 	}
 
-	public static function Cost($attributes){
+	public function Cost($attributes){
 		return new Cost($attributes);
 	}
 }
