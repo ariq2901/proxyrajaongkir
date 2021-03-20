@@ -86,6 +86,7 @@ abstract class Api {
 		 	throw new Exception($err, 1);	
 		} else {
 			$data = json_decode($response, true);
+			var_dump();die;
 			$code = $data['rajaongkir']['status']['code'];
 			if($code == 400){
 				throw new Exception($data['rajaongkir']['status']['description'], 1);		
