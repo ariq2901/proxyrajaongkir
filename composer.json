@@ -1,0 +1,25 @@
+{
+    "name": "ariqjusuf/proxyrajaongkir",
+    "type": "package",
+    "description": "Proxy API Raja Ongkir Laravel 8",
+    "keywords": [
+        "proxy rajaongkir",
+        "raja ongkir laravel 8",
+        "Proxy API Raja Ongkir Laravel 8"
+    ],
+    "authors": [
+        {
+            "name": "Ariq Jusuf Habibie",
+            "email": "ariq2901@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "ariqjusuf\\proxyrajaongkir\\": "src/"
+        }
+    }
+}
